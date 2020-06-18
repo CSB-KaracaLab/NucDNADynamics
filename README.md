@@ -7,13 +7,17 @@ Here, we explored the role of force fields in reproducing the experimentally obs
 
 Base pair parameters i.e., roll, twist, shift, slide, rise, tilt and minor and major groove widths were calculated by using 3DNA tool and then, they were analyzed by using Python scripts to visualize and interpret the results. Python scripts can be used to (i) extract base pair parameters’ results from 3DNA output files, (ii)extract minor and major groove widths from 3DNA output files, (iii) combine desired parameter results in a single file and (iv) find maximum, minimum and mean values of selected parameter to visualize the results. You can find our iPython notebook which includes these scripts under the "test_script" file.
 
-(i) Extracting Base Pair Parameters from 3DNA output files: This script extracts your base pair parameters from 3DNA output files. Before running the script, you need to specify your 3DNA output files directory name in the script instead of "your_output_files_directory/" locations. Your output files will be saved with the name of each output file .Example output file is given “output.out.csv”.
+######(i) Extracting Base Pair Parameters from 3DNA output files: 
+This script extracts your base pair parameters from 3DNA output files. Before running the script, you need to specify your 3DNA output files directory name in the script instead of *"your_output_files_directory/"* locations. Your output files will be saved with the name of each output file .Example output file is given as “output.out.csv”.
 
-(ii) Extracting Minor and Major Groove Widths from 3DNA output files: This script extracts your minor and major groove widths from 3DNA output files. Before running the script, you need to specify your 3DNA output files directory name in the script instead of "your_output_files_directory/" locations. Your output files will be saved with the name of each output file. Example output file is given “output_2.out.csv”.
+######(ii) Extracting Minor and Major Groove Widths from 3DNA output files: 
+This script extracts your minor and major groove widths from 3DNA output files. Before running the script, you need to specify your 3DNA output files directory name in the script instead of *"your_output_files_directory/"* locations. Your output files will be saved with the name of each output file. Example output file is given as “output_2.out.csv”.
 
-(iii) Combining all extracted files into a single file: Your selected 3DNA output results are combined in one single file for the whole trajectory.. Before running this script, you need to specify your outputs directory instead of "our_input_files_directory/" locations. Output file will be saved with the name of "all_results.csv" and will be an input file of the next script that calculates minimum, maximum and mean values of trajectory.
+######(iii) Combining all extracted files into a single file: 
+Your selected 3DNA output results are combined in one single file for the whole trajectory. Before running this script, you need to specify your outputs directory instead of *"our_input_files_directory/"* locations. Output file will be saved with the name of "all_results.csv" and will be an input file of the next script that calculates minimum, maximum and mean values of your dataset.
 
-(iv) Finding maximum, minimum and mean values of selected dataset: This script calculates minimum, maximum and mean values for every parameter in your dataset. It is required to plot your range and mean value of your trajectory. Example output files are given “max_min.csv” and “groove_widths_max_min.csv”.
+######(iv) Finding maximum, minimum and mean values of selected parameters: 
+This script calculates minimum, maximum and mean values for every parameter in your dataset. It is required to plot your range and mean value of your trajectory. Example output files are given as  “base_pair_max_min.csv” and “groove_widths_max_min.csv”.
 
 
 
