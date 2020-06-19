@@ -2,7 +2,7 @@
 
 <img src="logo.png" alt="logo" width="200" />
 
-by Ayşe Berçin Barlas, Burcu Özden, Ezgi Karaca
+#### by Ayşe Berçin Barlas, Burcu Özden, Ezgi Karaca
 
 The nucleosomes have been of great interest due to their importance in chromatin function. They are the main template for diverse vital processes, such as transcription, replication, recombination, DNA repair, and cell division. Although there are several molecular dynamics studies on how histone dynamics regulate the nucleosome function, the relevance of nucleosomal DNA dynamics is yet to be determined.
 
