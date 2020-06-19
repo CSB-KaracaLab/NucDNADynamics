@@ -13,7 +13,9 @@ We run molecular dynamics simulations of the 601 NCP (PDB ID: 3lz0) under the ef
 The results presented here come from 400 ns long simulations. To dissect the calculated DNA geometries, we used the [3DNA suite](https://x3dna.org/). 
 The analyzed base pair step parameters and groove widths are provided under base_pair_step_parameter_results and groove_width_results folders, respectively.
 
-Python scripts can be used to (i) extract base pair step parameter results from 3DNA output files, (ii) extract minor and major groove widths from 3DNA output files, (iii) combine desired parameter results in a single file and (iv) find maximum, minimum and mean values of selected parameter to visualize the results. You can find our iPython notebook which includes these scripts under the "test_script" folder.
+## How to parse and analyze 3DNA out files
+
+Here, we provide an example Python script, calc_3dna_stats.ipynb, located under appplication_example folder that can be used to (i) extract base pair step parameter results from 3DNA output files, (ii) extract minor and major groove widths from 3DNA output files, (iii) combine desired parameter results in a single file and (iv) find maximum, minimum and mean values of selected parameter to visualize the results. 
 
 ###### (i) Extracting Base Pair Step Parameters from 3DNA output files: 
 This script extracts your base pair step parameters from 3DNA output files. Before running the script, you need to input your output folder name where you see *"your_output_files_directory/"* . The processed file will be saved with a.csv extension.
