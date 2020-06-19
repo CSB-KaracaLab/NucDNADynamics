@@ -20,6 +20,11 @@ Your selected 3DNA output results are combined in one single file for the whole 
 ###### (iv) Finding maximum, minimum and mean values of selected parameters: 
 This script calculates minimum, maximum and mean values for every parameter in your dataset. It is required to plot your range and mean value of your trajectory. Example output files are given as  “base_pair_max_min.csv” and “groove_widths_max_min.csv”.
 
+## Simulation Setup
+
+We run molecular dynamics simulations of the 601 nucleosome under the effect of two different force fields, i.e., AMBER parmbsc1 and CHARMM36. 
+Molecular dynamics simulations performed on GROMACS 5.1.4. System solvated in a TIP3P water molecules and neutralized with 0.15 M Na+ and Cl- ions. 400 ns simulations performed under 310 K temperature for both cases.
+
 
 
 
