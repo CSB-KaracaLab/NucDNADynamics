@@ -11,7 +11,7 @@ Here, we explored the role of force fields in reproducing the experimentally obs
 
 We run molecular dynamics simulations of the 601 NCP (PDB ID: 3lz0) under the effect of two different force fields, i.e., AMBER parmbsc1 and CHARMM36 with GROMACS version 5.1.4 (water model: TIP3P, ion conc: 0.15 M Na+ and Cl-, T=310K)
 The results presented here come from 400 ns long simulations. To dissect the calculated DNA geometries, we used the [3DNA suite](https://x3dna.org/). 
-The analyzed base pair step parameters and groove widths are provided under base_pair_step_parameter_results and groove_width_results folders, respectively.
+The analyzed base pair step parameters and groove widths are provided under **base_pair_step_parameter_results** and **groove_width_results** folders, respectively.
 
 ## How to parse and analyze 3DNA out files
 
