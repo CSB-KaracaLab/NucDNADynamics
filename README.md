@@ -15,21 +15,8 @@ The analyzed base pair step parameters and groove widths are provided under base
 
 ## How to parse and analyze 3DNA out files
 
-Here, we provide an example Python script, calc_3dna_stats.ipynb, located under appplication_example folder that can be used to (i) extract base pair step parameter results from 3DNA output files, (ii) extract minor and major groove widths from 3DNA output files, (iii) combine desired parameter results in a single file and (iv) find maximum, minimum and mean values of selected parameter to visualize the results. 
+Here, we provide an example Python script, calc_3dna_stats_and_plot.ipynb, located under *application_example/* folder that can be used to (i) extract base pair step parameter results from 3DNA output files, (ii) extract minor and major groove widths from 3DNA output files, (iii) combine desired parameter results in a single file and (iv) find maximum, minimum and mean values of selected parameter and (iv) visualize the results. 
 
-###### (i) Extracting Base Pair Step Parameters from 3DNA output files: 
-This script extracts your base pair step parameters from 3DNA output files. Before running the script, you need to input your output folder name where you see *"/your_output_files_directory/"* . The processed file will be saved with a.csv extension.
-
-###### (ii) Extracting Minor and Major Groove Widths from 3DNA output files: 
-This script extracts your minor and major groove widths from 3DNA output files. Before running the script, you need to specify your 3DNA output files directory name in the script instead of *"/your_output_files_directory/"* locations. Your output files will be saved with the name of each output file. Example output file is given as “output_2.out.csv”.
-
-###### (iii) Combining all extracted files into a single file: 
-Your selected 3DNA output results are combined in one single file for the whole trajectory. Before running this script, you need to specify your outputs directory instead of *"our_input_files_directory/"* locations. Output file will be saved with the name of "all_results.csv" and will be an input file of the next script that calculates minimum, maximum and mean values of your dataset.
-
-###### (iv) Finding maximum, minimum and mean values of selected parameters: 
-This script calculates minimum, maximum and mean values for every parameter in your dataset. It is required to plot your range and mean value of your trajectory. Example output files are given as  “base_pair_max_min.csv” and “groove_widths_max_min.csv”.
-
-
-
-
-
+Under *application_example/* the example 3DNA out files for the simulated nucleosomes are given in *3dna_out/* where the Xtal structures are provided under *xtal/*
+To be able to use our example Python script, in the script *YOUR_PATH/* expression should be replaced with the location of your *NucDNADynamics/* folder.
+For more, please check the Python script.
