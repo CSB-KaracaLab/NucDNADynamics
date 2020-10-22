@@ -15,11 +15,11 @@ The analyzed base pair step parameters and groove widths are provided under **ba
 
 ## How to parse and analyze 3DNA out files
 
-Here, we provide an example Python script, **calc_3dna_stats_and_plot.ipynb**, located under **application_example/** folder that can be used to (i) extract base pair step parameter results from 3DNA output files, (ii) extract minor and major groove widths from 3DNA output files, (iii) combine desired parameter results in a single file, (iv) find maximum, minimum and mean values of selected parameter, and (iv) visualize the results. 
+Here, we provide example Python scripts, **calc_3dna_stats.ipynb**, located under **application_example/** folder that can be used to (i) extract base pair step parameter results from 3DNA output files, (ii) extract minor and major groove widths from 3DNA output files, (iii) combine desired parameter results in a single file, (iv) find maximum, minimum and mean values of selected parameter. **plot_calc_stats.ipynb** located in the same file can be used for visualize the results. 
 
 Under *application_example/* the example 3DNA out files for the simulated nucleosomes are given in *3dna_out/* where the Xtal structures are provided under *xtal/*.
 
-To be able to use our example Python script, in the script **YOUR_PATH/** expression should be replaced with the location of your *NucDNADynamics/* folder.
+To be able to use our example Python script, in the script **YOUR_DIR/** expression should be replaced with the location of your *NucDNADynamics/* folder.
 
 For more, please check the Python script.
 
